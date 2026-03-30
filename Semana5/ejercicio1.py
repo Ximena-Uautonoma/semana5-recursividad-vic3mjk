@@ -11,7 +11,7 @@ def contar_ciclo(n):
     for i in range(1, n + 1):
          num.append(i)
     return num
-print(contar_ciclo(10))
+print(contar_ciclo(10))nbv
 
 
 def contar_recursivo(n):
