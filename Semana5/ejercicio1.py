@@ -12,7 +12,7 @@ def contar_ciclo(n):
          num.append(i)
     return num
 print(contar_ciclo(10))nbv
-
+asasd
 
 def contar_recursivo(n):
     """
