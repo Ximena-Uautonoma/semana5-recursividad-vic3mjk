@@ -16,7 +16,8 @@ print(suma_ciclo(int(input("Ingresa un número: "))))
 
 
 def suma_recursiva(n):
-    """
-    Retorna la suma de los primeros n números usando recursividad.
-    """
-    pass
+    if n == 1:
+        return 1
+    else:
+        return n + suma_recursiva(n-1)
+print(suma_recursiva(int(input("Ingresa un número: "))))
