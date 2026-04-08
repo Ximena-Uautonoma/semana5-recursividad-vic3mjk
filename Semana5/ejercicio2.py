@@ -8,10 +8,11 @@ Debe implementar:
 """
 
 def suma_ciclo(n):
-    """
-    Retorna la suma de los primeros n números usando un ciclo.
-    """
-    pass
+    suma = 0
+    for i in range(1 , n + 1):
+        suma = suma + i
+    return f"la suma es {suma}"
+print(suma_ciclo(int(input("Ingresa un número: "))))
 
 
 def suma_recursiva(n):
